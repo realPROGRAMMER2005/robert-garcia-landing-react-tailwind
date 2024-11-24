@@ -2,7 +2,7 @@ import ContentWrapper from "./common/ContentWrapper"
 
 const Navigation = () => {
   return (
-    <ContentWrapper maxWidth="1440px">
+    <ContentWrapper maxWidth={"1440px"}>
       <div className="sticky top-0 flex justify-between items-center py-6">
         <h1 className="text-3xl font-bebas">ROBERT GARCIA</h1>
         <ul className="hidden sm:flex gap-8">
