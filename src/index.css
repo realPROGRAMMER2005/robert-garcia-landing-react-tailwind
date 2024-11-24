@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: black;
+}
+
+* {
+  color: white  ;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+html {
+  @apply text-[14px] md:text-[18px] sm:text-[16px] 
+}
