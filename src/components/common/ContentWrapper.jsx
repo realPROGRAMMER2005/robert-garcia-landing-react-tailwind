@@ -1,11 +1,9 @@
-
-
-const ContentWrapper = ({children, maxWidth='1400px'}) => {
+const ContentWrapper = ({children}) => {
   return (
-    <div className={`w-full max-w-[${maxWidth}] mx-auto px-3 sm:px-6`}>
+    <div className={`w-full max-w-[1440px] mx-auto px-3 sm:px-6`}>
       {children}
     </div>
-  )
+  );
 }
 
-export default ContentWrapper
+export default ContentWrapper;

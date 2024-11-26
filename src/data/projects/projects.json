@@ -1,0 +1,49 @@
+[
+    {   
+        "id": 0,
+        "header": "Promotional landing page for our favorite show",
+        "imagePath": "AlienSlayer3000.png",
+        "paragraph": "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
+        "information": {
+            "year": "2023",
+            "role": "Front-end Developer"
+        },
+        "links": {
+            "LIVE DEMO": "#",
+            "SEE ON GITHUB": "#"
+        }
+    },
+
+    {
+        "id": 1,
+        "header": "Blog site for World News",
+        "imagePath": "MNTNLanding.jpg",
+        "paragraph": "Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design decisions for a seamless user experience. Leveraged the challenge to enhance skills in  front-end development.",
+        "information": {
+            "client": "World News",
+            "year": "2022",
+            "role": "Front-end Developer"
+        },
+        "links": {
+            "VIEW PROJECT": "#"
+
+        }
+    },
+
+
+    {
+        "id": 2,
+        "header": "E-commerce product page",
+        "imagePath": "RaulIqbalLanding.png",
+        "paragraph": "Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart functionality, showcasing proficiency in JavaScript development.",
+        "information": {
+            "year": "2022",
+            "role": "Front-end Developer"
+        },
+        "links": {
+            "LIVE DEMO": "#",
+            "SEE ON GITHUB": "#"
+        }
+    }
+
+]
