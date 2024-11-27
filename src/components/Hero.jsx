@@ -6,7 +6,7 @@ import Paragraph from "./common/Paragraph"
 
 const Hero = () => {
   return (
-    <div className="flex items-center mt-[4rem] mb-[8rem]">
+    <div className="flex items-center mt-[4rem] mb-[8rem] ">
       <ContentWrapper>
 
         <div className="flex flex-col lg:flex-row justify-between gap-y-6 items-center">

@@ -30,7 +30,7 @@ const About = () => {
                         </Paragraph>
                     </div>
                     <div>
-                        <Link>MORE ABOUT ME</Link>
+                        <Link href={'#'}>MORE ABOUT ME</Link>
                     </div>
 
 
