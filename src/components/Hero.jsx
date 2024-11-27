@@ -33,7 +33,7 @@ const Hero = () => {
         
 
           <div className="max-w-[540px] lg:max-w-[440px]">
-            <img className="rounded-[2rem]" src="./src/assets/images/HELP.jpeg"></img>
+            <img className="rounded-[2rem]" src="./assets/HELP.jpeg"></img>
           </div>
 
         </div>

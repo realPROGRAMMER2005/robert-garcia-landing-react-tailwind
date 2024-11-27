@@ -13,7 +13,7 @@ const ProjectCard = ({header, imagePath, paragraph, information, links}) => {
     <div className='flex flex-col lg:grid grid-cols-2 gap-x-10 gap-y-20'>
 
       <div className='max-w-[580px] w-full mx-auto'>
-          <ProjectImage><img src={`/project_images/${imagePath}`} alt={`${imagePath}`}/></ProjectImage>
+          <ProjectImage><img src={`./project_images/${imagePath}`} alt={`${imagePath}`}/></ProjectImage>
       </div>
 
       <div className='flex flex-col max-w-[580px] w-full mx-auto gap-6 justify-center'>
@@ -25,7 +25,7 @@ const ProjectCard = ({header, imagePath, paragraph, information, links}) => {
         <div className='flex flex-row gap-6'>
 
           {links_keys.map((link) => (
-            <Link 
+            <Link key={Math.random()} 
               href={links[link]}
               {...(link.toLowerCase().includes('github') && {isWithGitHubIcon: true})}
               {...(link.toLowerCase().includes('view project') && {isWithArrowIcon: true})}>
